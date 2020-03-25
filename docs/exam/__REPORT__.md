@@ -11,6 +11,10 @@ Compare the behavior of D latch and D flip-flop devices by completing the timing
 
 ![](./figures/problem_1.png)
 
+![](Sol1.png)
+
+Latch output is level triggerred, i.e whereever CLK is 1, Q_Latch follows the D. Whereas the flipflop output os edge trigerred, i.e the output Q_ff depends on the calue of D when CLK changes from 0 to 1.
+
 # (5 pts)
 A circuit has an input X that is connected to the input of a D flip-flop. Using additional D flip-flops, complete the circuit so that an output Y equals the output of X’s flip-flop but delayed by two clock cycles. 
 
